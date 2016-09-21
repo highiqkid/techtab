@@ -1,0 +1,12 @@
+{
+  "name": "Techtab",
+  "version": "1.1.1",
+  "description": "Chrome Extension that displays a new product from Producthunt every time you click 'new tab'",
+  "manifest_version": 2,
+  "browser_action":{
+    "default_icon":"bulb.png"
+  },
+  "chrome_url_overrides":{
+      "newtab":"newtab.html"
+  }
+}

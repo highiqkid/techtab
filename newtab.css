@@ -1,0 +1,5 @@
+body{
+    background: url(bulb.png) no-repeat center center fixed;
+    background-size: contain;
+    backdrop-filter: blur(10px) contrast(3) grayscale(1);
+}
